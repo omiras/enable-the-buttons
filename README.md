@@ -18,6 +18,6 @@ Para poder continuar:
 
 1. Debemos tener un prefijo válido de 3 carácteres
 2. Suponemos que todos los teléfonos deben ser de 6 carácteres
-3. Cuando escribamos un prefijo válido, debe aparecer la bandera del país correspondiente
+3. Cuando escribamos un prefijo válido, debe aparecer la bandera del país correspondiente (bueno, en realidad, solo tenemos las banderas de los prefijos para España, Francia, Reino Unido y Alemania)
 
 **BONUS** : Arregla el CSS, que los input y la imagen no estan alineados ni hay separación entre ellos 😁
