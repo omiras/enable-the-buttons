@@ -2,6 +2,8 @@
 
 A continuación una serie de ejercicios para practicar el evento [_change_](https://www.w3schools.com/jsref/event_onchange.asp)
 
+¿Cómo habilitar o deshabilitar un botón en JavaScript? [Ayuda](https://www.w3schools.com/jsref/prop_pushbutton_disabled.asp)
+
 # Index1.html
 
 Hasta que no seleccionemos la opción de aceptar los términos y condiciones, no podemos habilitar el botón. (No pasará nada al hacer clic en el botón)
