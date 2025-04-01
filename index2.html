@@ -1,11 +1,13 @@
 <!DOCTYPE html>
 <html lang="es">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Ejercicios Event Change</title>
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
 </head>
+
 <body>
     <main class="container">
         <h2>Ejercicio 2: Checkbox y botón habilitado</h2>
@@ -15,6 +17,25 @@
     </main>
     <script>
         /* Buena suerte! */
-    </script>  
+
+        // 1. Recuperar el input.
+        const inputTerms = document.querySelector('#acceptTerms');
+        const btnContinue = document.querySelector("#continueBtn2");
+
+        // 2. Asociarle el listener , evento change
+        inputTerms.addEventListener("change", function () {  // 3. Dentro de la función , comprobar si ha marcado la opción o no. Habilitar o deshabilitar el botón en consecuencia
+            if (inputTerms.checked) {
+                btnContinue.disabled = false;
+            } else {
+                btnContinue.disabled = true;
+            }
+
+            // TODO: Refactorizar el if..else anterior en una sola línea de código 
+        });
+
+
+
+    </script>
 </body>
+
 </html>
