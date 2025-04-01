@@ -19,6 +19,21 @@
     </main>   
     <script>
         /* Buena suerte! Corregir 21.35 */
+        // El evento 'change' se dispara cuando el valor del <select> cambia
+        document.querySelector('#agreement').addEventListener("change", function(event) {
+
+            const btnContinue = document.querySelector('#continueBtn1');
+
+            const selectedValue = event.target.value;
+            console.log("🚀 ~ document.querySelector ~ selectedValue:", selectedValue);
+
+            if (selectedValue == "yes") {
+                btnContinue.disabled = false;
+            } else {
+                btnContinue.disabled = true;
+            }
+            
+        });
 
     </script>
 </body>
