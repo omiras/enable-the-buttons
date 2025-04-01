@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ejercicios Event Change</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@picocss/pico@1/css/pico.min.css">
+    <style>
+        .number {
+            display: flex;
+        }
+        .number img {
+            width: 200px;
+        }
+    </style>
+</head>
+<body>
+    <main class="container">
+        <h2>Ejercicio 3: Ingresa tu número de teléfono y prefijo de país para poder continuar. Solo aceptamos España, Francia, Reino Unido o Alemania.</h2>
+        <div class="number">
+            <img style="width: 100px;" id="flagDisplay" class="flag">
+            <input type="text" id="phonePrefix" placeholder="+34" maxlength="3">
+            <input type="tel" id="phoneNumber" placeholder="666777888" maxlength="9">
+        </div>
+        <button id="continue" disabled>Continuar</button>
+        
+            
+    </main>
+    <script>
+        /* Buena suerte! */
+        const countryFlags = {
+            "+34": "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Flag_of_Spain.svg/1125px-Flag_of_Spain.svg.png?20240115205409", // España
+            "+44": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/83/Flag_of_the_United_Kingdom_%283-5%29.svg/1200px-Flag_of_the_United_Kingdom_%283-5%29.svg.png?20230715230526", // Reino Unido
+            "+49": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/ba/Flag_of_Germany.svg/1200px-Flag_of_Germany.svg.png?20070926182838", // Alemania
+            "+33": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c3/Flag_of_France.svg/1200px-Flag_of_France.svg.png?20240925132318"  // Francia
+        };
+
+    </script>  
+</body>
+</html>
